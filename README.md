@@ -97,7 +97,9 @@
 
 [常见Q&A](https://github.com/submato/xhscrawl/blob/main/service/service_index/feature_notice.md) 
 
-
+# 联系作者
+telegram： https://t.me/xhsdatasever
+Email: theodatagh@gmail.com
 # Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=submato/xhscrawl&type=Date)](https://star-history.com/#submato/xhscrawl&Date)
