@@ -1,0 +1,72 @@
+{
+  "name": "@asamuzakjp/css-color",
+  "description": "CSS color - Resolve and convert CSS colors.",
+  "author": "asamuzaK",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asamuzaK/cssColor.git"
+  },
+  "homepage": "https://github.com/asamuzaK/cssColor#readme",
+  "bugs": {
+    "url": "https://github.com/asamuzaK/cssColor/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "packageManager": "pnpm@9.15.3",
+  "type": "module",
+  "types": "dist/esm/index.d.ts",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@csstools/css-calc": "^2.1.1",
+    "@csstools/css-color-parser": "^3.0.7",
+    "@csstools/css-parser-algorithms": "^3.0.4",
+    "@csstools/css-tokenizer": "^3.0.3",
+    "lru-cache": "^10.4.3"
+  },
+  "devDependencies": {
+    "@tanstack/config": "^0.15.1",
+    "@vitest/coverage-istanbul": "^2.1.8",
+    "esbuild": "^0.24.2",
+    "eslint": "^9.18.0",
+    "knip": "^5.42.0",
+    "neostandard": "^0.12.0",
+    "prettier": "^3.4.2",
+    "publint": "^0.3.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  },
+  "scripts": {
+    "build": "pnpm run build:rest && pnpm run build:min",
+    "build:min": "vite build -c vite.browser.config.ts",
+    "build:rest": "vite build",
+    "clean": "rimraf ./dist && rimraf ./coverage",
+    "prettier": "prettier --ignore-unknown .",
+    "prettier:write": "pnpm run prettier --write",
+    "test": "pnpm run  \"/^test:.*/\" && pnpm run build && pnpm run publint",
+    "publint": "publint --strict",
+    "test:lib": "vitest",
+    "test:eslint": "eslint ./src ./tests",
+    "test:knip": "knip",
+    "test:types": "tsc"
+  },
+  "version": "2.8.3"
+}

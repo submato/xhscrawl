@@ -1,0 +1,48 @@
+{
+  "name": "@fastify/forwarded",
+  "description": "Parse HTTP X-Forwarded-For header",
+  "version": "3.0.0",
+  "type": "commonjs",
+  "contributors": [
+    "Matteo Collina <hello@matteocollina.com>",
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Aras Abbasi <aras.abbasi@gmail.com"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "x-forwarded-for",
+    "http",
+    "req"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastify/forwarded.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fastify/forwarded/issues"
+  },
+  "homepage": "https://github.com/fastify/forwarded#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "benchmark": "2.1.4",
+    "standard": "^17.1.0",
+    "tap": "^18.8.0",
+    "tsd": "^0.31.1"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "types/index.d.ts"
+  ],
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "bench:combined": "node benchmark/combined.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run test:unit && npm run test:typescript",
+    "test:unit": "tap",
+    "test:typescript": "tsd"
+  }
+}

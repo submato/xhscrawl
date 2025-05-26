@@ -1,0 +1,11 @@
+{
+  "name": "xhscrawl",
+  "version": "1.0.0",
+  "devDependencies": {
+    "fastify": "^5.2.1"
+  },
+  "dependencies": {
+    "jsdom": "^26.0.0",
+    "tough-cookie": "^5.1.2"
+  }
+}

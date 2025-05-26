@@ -1,0 +1,45 @@
+{
+  "name": "@fastify/proxy-addr",
+  "description": "Determine address of proxied request",
+  "version": "5.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "types/index.d.ts",
+  "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
+  "license": "MIT",
+  "keywords": [
+    "ip",
+    "proxy",
+    "x-forwarded-for"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastify/proxy-addr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fastify/proxy-addr/issues"
+  },
+  "homepage": "https://github.com/fastify/proxy-addr#readme",
+  "dependencies": {
+    "@fastify/forwarded": "^3.0.0",
+    "ipaddr.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@fastify/pre-commit": "^2.1.0",
+    "@types/node": "^22.0.0",
+    "beautify-benchmark": "0.2.4",
+    "benchmark": "2.1.4",
+    "c8": "^7.14.0",
+    "standard": "^17.1.0",
+    "tape": "^5.7.5",
+    "tsd": "^0.31.0"
+  },
+  "scripts": {
+    "bench": "node benchmark/index.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run test:unit && npm run test:typescript",
+    "test:typescript": "tsd",
+    "test:unit": "c8 tape test/**/*.js"
+  }
+}
