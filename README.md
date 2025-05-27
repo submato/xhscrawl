@@ -33,7 +33,7 @@
 ## 1.在线获取xs、xt、xhs数据等
 
 在线获取xs、xt、xhs数据等
- 
+接口文档：https://github.com/submato/xhscrawl/blob/main/apiserver.md
 
 后续会增加各平台的逆向
 
