@@ -99,7 +99,8 @@
 
 # 联系作者
 telegram： https://t.me/xhsdatasever
-Email: theodatagh@gmail.com
+
+Email: lukalaoban@gmail.com
 # Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=submato/xhscrawl&type=Date)](https://star-history.com/#submato/xhscrawl&Date)
