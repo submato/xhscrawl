@@ -6,7 +6,7 @@
 | 接口                     | 对应平台及关键字段 | 每次调用消耗token数  |响应数据 | 接口超时时间 | 最高QPS |
 | ------------------------ | ------------------ |   -------- |-------- | ------------ | ------- |
 | /api/xhs/xs             | 小红书 xs、xt      | 10 token/次  | 50ms    | 800ms        | 200       |
-| /api/xhs/notedetail | 笔记详情                  | 20 token/次                 | 秒级 | 无       |      量大请提前联系作者     | 
+| /api/xhs/notedetail | 笔记详情                  | 40 token/次                 | 秒级 | 无       |      量大请提前联系作者     | 
 | /api/xhs/getcomment | 笔记评论                  | 20 token/次                 | 秒级 | 无       |      量大请提前联系作者     | 
 | /api/xhs/getsubcomments | 笔记子评论                  | 20 token/次                 | 秒级 | 无       |      量大请提前联系作者     | 
 | /api/xhs/appsearch | app笔记搜索                  | 60 token/次                 | 秒级 | 无       |      量大请提前联系作者     |
@@ -73,7 +73,7 @@
 
 ## 2. GET /api/xhs/notedetail App端笔记详情接口 
 
-> token消耗：20
+> token消耗：40
 
 > param:
 
