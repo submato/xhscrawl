@@ -122,6 +122,18 @@
 | filterNoteTime    | string  |    筛选笔记发布时间 默认值：不限 可选值：一天内、一周内、半年内   |  非必须|
 | filterNoteRange    | string  |   筛选笔记搜索范围 默认值：不限 可选值：已看过、未看过、已关注    |  非必须|
 
+## 6. GET /api/xhs/appusersearch App端用户搜索接口
+
+> token消耗：60
+
+> param:
+
+| 参数         | 类型	| 含义         | 是否必须 |
+| ------------ | ------|--------------------- | -------- |
+| keyword    | string  |     要搜索的关键字  |  必须|
+| page    | integer  |     第几页，从1开始  |  必须|
+| searchId    | string  |   第一次请求可不传，服务端会生成searchId。 翻页时建议携带服务端返回的searchId。多个关键字不要复用searchId。    |  非必须|
+
 
 
 ## 7. GET /api/xhs/appuserinfo app用户详情接口
