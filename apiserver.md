@@ -83,7 +83,7 @@
 
 > 返回说明：视频笔记请不要用这个接口，有可能请求失败，且会扣费。
 
-## 2. GET /api/xhs/videonotedetail App端视频笔记详情接口 
+## 2. GET /api/xhs/videonotedetail App端视频笔记详情接口
 
 > token消耗：40
 
@@ -94,6 +94,8 @@
 |   noteId  | string |   笔记id    | 必须|
 
 > 返回说明：视频接口为feed流，返回3个视频，第一个为当前视频。若不存在视频笔记则返回剩余两个，或返回空值或失败
+
+> 其他：成功率将比图文接口高
 
 ## 3. GET /api/xhs/getcomment  App端笔记评论接口
 
