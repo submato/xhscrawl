@@ -25,7 +25,11 @@
 
 1. 本项项目是针对web端。小红书web的api都有加密，主要就是x-s。本项目是用python逆向小红书x-s。
 
-2.由于小红书风控愈发严格，作者也提供在线获取小红书数据接口，包含web、app端。
+2.由于小红书风控愈发严格，作者也提供在线获取小红书app端数据接口。
+
+# 赞助
+感谢[IPWO爬虫代理](https://www.ipwo.net/?code=UZAQI8MCS)赞助本项目，IPWO可有效保护账号，防封问题戳这里注册可得充裕流量使用。[链接跳转](https://www.ipwo.net/?code=UZAQI8MCS)
+
 
 
 # 作者提供的服务
