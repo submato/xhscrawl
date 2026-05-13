@@ -258,7 +258,7 @@ if __name__ == '__main__':
         "method": "post",  # 小红书该api方式为post
         "api": api,
     }
-    host = "http://apiserver.top"
+    host = "https://apiserver.top"
     Authorization = "xxx"  # apiserver.top 平台的Authorization 填这里
 
     headers = {
