@@ -27,8 +27,6 @@
 
 2.由于小红书风控愈发严格，作者也提供在线获取小红书app端数据接口。
 
-# 赞助
-感谢[IPWO爬虫代理](https://www.ipwo.net/?code=UZAQI8MCS)赞助本项目，IPWO可有效保护账号，防封问题戳这里注册可得充裕流量使用。[链接跳转](https://www.ipwo.net/?code=UZAQI8MCS)
 
 
 
