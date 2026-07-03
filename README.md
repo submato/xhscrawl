@@ -32,9 +32,9 @@
 
 # 作者提供的服务
 
-## 1.在线获取xs、xt、xhs数据等
+## 1.在线获取xhs数据等
 
-在线获取xs、xt、xhs数据等
+在线获取xhs数据，无需提供账号，考虑封控 等
 
 接口文档：https://dataflow.apifox.cn/
 
