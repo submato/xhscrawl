@@ -58,7 +58,7 @@
 
 star数量增长趋势
 
-[![Star History Chart](https://api.star-history.com/svg?repos=submato/xhscrawl&type=Date)](https://star-history.com/#submato/xhscrawl&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=submato/xhscrawl&type=Date)](https://star-history.dera.page/#submato/xhscrawl&Date)
 
 
 
