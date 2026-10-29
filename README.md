@@ -34,17 +34,21 @@
 
 ## 1.在线获取xhs数据等
 
-在线获取xhs数据，无需提供账号，考虑封控 等
+在线获取xhs数据，无需提供账号，无需考虑封控 等
+
+telegram： https://t.me/xhsdatasever
+
+Email: lukalaoban@gmail.com
 
 接口文档：https://dataflow.apifox.cn/
 
-后台充值页面：https://dataflowserver.org
+后台：https://dataflowserver.org （如使用chrome浏览器出现安全提醒，请切换浏览器）
 
 同时我们寻求其他更多平台、价格更低的api供应商合作
 
 
 
-后续会增加各平台的逆向
+
 
 ## 2.创建小红书账号指南
 
