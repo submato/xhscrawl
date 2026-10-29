@@ -47,6 +47,9 @@ Email: lukalaoban@gmail.com
 同时我们寻求其他更多平台、价格更低的api供应商合作
 
 
+## MCP
+
+https://github.com/submato/apiserver-xhs-mcp
 
 
 
