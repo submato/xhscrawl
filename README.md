@@ -38,7 +38,7 @@
 
 接口文档：https://dataflow.apifox.cn/
 
-后台充值页面：http://dataflowserver.org （若使用chrome出现风险提示，信任即可，或切换浏览器）
+后台充值页面：https://dataflowserver.org
 
 同时我们寻求其他更多平台、价格更低的api供应商合作
 
@@ -113,7 +113,7 @@ Email: lukalaoban@gmail.com
 
 接口文档：https://dataflow.apifox.cn/
 
-后台充值页面：http://dataflowserver.org （若使用chrome出现风险提示，信任即可，或切换浏览器）
+后台充值页面：https://dataflowserver.org
 
 同时我们寻求其他更多平台、价格更低的api供应商合作
 
