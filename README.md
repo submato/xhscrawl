@@ -52,6 +52,13 @@ Email: lukalaoban@gmail.com
 https://github.com/submato/apiserver-xhs-mcp
 
 
+## 感谢以下赞助商
+
+| | | 
+| --- | --- | 
+| <img width="512" height="512" alt="IMAGE 2026-11-02 19:20:06" src="https://github.com/user-attachments/assets/7224230f-ddf8-4937-a1fc-b2eefc241952" /> | <a href="https://9527shop.cc/"> 9527小卖部 </a> 是专业的红书账号售卖一手源头商家。长期稳定提供国内外多区红书账号、CK/SID、采集API、及国内外纯净住宅IP，一手资源，专业靠谱！商务合作 [TG: @bendanwwww](https://t.me/bendanwwww) | 
+
+
 
 ## 2.创建小红书账号指南
 
